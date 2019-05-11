@@ -20,7 +20,7 @@ import java.util.Date;
  * 类目标
  */
 @Entity
-@Proxy(lazy = false)
+//@Proxy(lazy = false)
 @DynamicUpdate
 @Data
 public class ProductCategory {
