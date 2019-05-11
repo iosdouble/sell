@@ -1,7 +1,9 @@
 package com.example.sell;
 
+//import org.jasypt.encryption.StringEncryptor;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -9,8 +11,16 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class SellApplicationTests {
 
-    @Test
-    public void contextLoads() {
-    }
+//    @Autowired
+//    private StringEncryptor stringEncryptor;
+//
+//    @Test
+//    public void contextLoads() {
+//        String password = stringEncryptor.encrypt("123456");
+//        System.out.println(password);
+//
+//    }
+
+
 
 }
