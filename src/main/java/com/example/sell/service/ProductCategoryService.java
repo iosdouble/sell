@@ -13,12 +13,16 @@ import java.util.List;
  */
 public interface ProductCategoryService {
 
+    //查询一条记录
     ProductCategory findOne(Integer integer);
 
+    //查询所有记录
     List<ProductCategory> findAll();
 
+    //查询类目
     List<ProductCategory> findByCategoryTypeIn(List<Integer> typeList);
 
+    //类目表示
     ProductCategory save(ProductCategory productCategory);
 
     //暂时没有删除方法

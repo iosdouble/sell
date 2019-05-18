@@ -13,7 +13,7 @@ import lombok.Data;
 public class MessageObject<T> {
 
     //错误提示码
-    private String code;
+    private Integer code;
     //提示信息
     private String message;
     //具体内容
